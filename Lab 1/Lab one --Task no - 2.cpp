@@ -8,6 +8,6 @@
         std::cout <<"*\t*\n";
         std::cout << "*\t*\t*\n";
         std::cout << "*\t*\t*\t*\n";
-        std::cout << "*\t*\t*\t*\t*\t*\n";          //Task two ......lab 1
+        std::cout << "*\t*\t*\t*\t*\t*\n";        
         return 0;
     }
