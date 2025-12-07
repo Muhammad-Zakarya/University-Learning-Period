@@ -3,17 +3,17 @@ using namespace std;
 
 int main() {
 
-    const double TAXRATE = 0.06;   //6% tax lagayenge jo fixed hoga is lia hum isko const ma lek rahai hai.
+    const double TAXRATE = 0.06;   
 
     
     double item1 = 12.95;
     double item2 = 24.95;
     double item3 = 6.95;
-    double item4 = 14.95;    // sab items ko unki price dange
+    double item4 = 14.95;    
     double item5 = 3.95;
 
     
-    double subtotal = item1 + item2 + item3 + item4 + item5;    // sari items ki sum nikalenge our subtotle variable banake osma value store karlange.
+    double subtotal = item1 + item2 + item3 + item4 + item5;    
     
     double governmentsalesTax = subtotal * TAXRATE;
     
